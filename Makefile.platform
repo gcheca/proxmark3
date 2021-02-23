@@ -1,0 +1,7 @@
+# For my own compilation, in order to avoid errors with my host and proxmark. The correct parameters are the following uncomment. This could be the Makefile.platform
+
+PLATFORM=PM3GENERIC
+PLATFORM_SIZE=512
+STANDALONE=
+SKIP_HITAG=1
+SKIP_FELICA=1
